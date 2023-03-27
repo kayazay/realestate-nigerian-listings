@@ -27,15 +27,15 @@
 
 - `price`: The first non-null value is collected, and thousand delimeters are eliminated.
 
-    > (100,000, 100,000) &rarr; 100000
+        > (100,000, 100,000) &rarr; 100000
 
 - `area_sqm`: Same with `price` but in addition, units of measurement (sqm) are removed
 
-    > 40,000 sqm &rarr; 40000
+        > 40,000 sqm &rarr; 40000
 
 - `contact`: Contact numbers in intl. format are stripped of '+' then converted to local format.
 
-    > +23481... &rarr; 081...
+        > +23481... &rarr; 081...
 
 - `desc`: All matches from xpath are needed since this makes up the entire description; so a simple join on whitespace was applied to this.
 
