@@ -1,4 +1,4 @@
-# REAL ESTATE LISTINGS IN NIGERIA
+# Real Estate Listings in Nigeria
 
 ## Run project to get 7 days listings data
 - make request to the link that contains '7 days' in it
